@@ -19,7 +19,7 @@ BOT_USERNAME = getenv("BOT_USERNAME","odsmusicbot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME")
 # ---------------------------------------------------------
-
+GIT_TOKEN = os.getenv("GIT_TOKEN", None)
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
