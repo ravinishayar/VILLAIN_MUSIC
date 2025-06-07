@@ -30,5 +30,8 @@ def private_panel(_):
             InlineKeyboardButton(text=_["S_B_6"], url=config.SUPPORT_CHANNEL),
         ],
         [InlineKeyboardButton(text=_["S_B_4"], callback_data="settings_back_helper")],
+        [
+            InlineKeyboardButton(text="Cross Folder Bot", url="https://youtu.be/e79_NH4zhH0?feature=shared")
+        ],
     ]
     return buttons
